@@ -1,32 +1,39 @@
-import logo from "./images/logo.svg"
-import mockup from "./images/illustration-mockups.svg"
 import './App.css';
 
 function App() {
 
   return (
-    <>
-     
-    <header>
-
-      <img alt="logo" src={logo}/>
-    </header>
-
+  <>
     <main>
-      <img alt="mockup" src={mockup}/>
       <div className ="content">
-        <h2> Build the community your fans will love </h2> 
-        <p> Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion. </p>
-        <button>Register</button>     
+        <h1>Learn to code by <br/> watching others</h1> 
+        <p> See how experienced developers solve problems in real time. <br/> 
+                Watching scipted tutorials is great, but understanding how <br/> 
+                developers think is invaluable. </p>
+      </div>
+      <div className = "box">
+        <button class = "first"> 
+              <strong>
+              <span class="bold">Try it free 7 days </span> 
+              </strong>
+              <span class="nobold"> then $20/mo. thereafter</span>
+        </button> <br/>
+                <form>
+                    <input type="text" placeholder="First Name"/> <br/>
+                    <input type="text" placeholder="Last Name"/> <br/>
+                    <input type="text" placeholder="Email Address"/> <br/>
+                    <input type="text" placeholder="Password"/> <br/>
+                  <button class="second">
+                        CLAIM YOUR FREE TRIAL
+                  </button>
+                    <h6>
+                        By clicking the button, you are agreeing to our  
+                        <span class="pink"> Terms and Services</span>
+                    </h6>
+                </form>
       </div>
     </main>
-
-    <footer>
-    <i class="fab fa-facebook-f"></i>
-    <i class="fab fa-twitter"></i>
-    <i class="fab fa-instagram"></i>
-    </footer>
-    </>
+  </>
   );
 }
 

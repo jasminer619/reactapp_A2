@@ -1,62 +1,97 @@
-body, h2, p {
-  margin: 0;
-  padding: 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
 body {
-background-color: blueviolet;
-padding: 3em;
-}
-
-header img {
-  width: 14%;
+  padding: 0;
+  margin: 0;
+  background-color: #EE817C;
+  background-image: url(/src/images/bg-intro-desktop.png);
 }
 
 main {
-  margin-top: 2em;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  margin-top: 10%;
+  width: 100vw;
 }
 
-main img{
-  width: 50%;
+.content {
+  margin-top: 6%;
 }
 
-.content{
-  width: 40%;
-  padding-top: 2em; 
-}
-
-.content h2{
-  font-size:45px;
+.content h1 {
   color: white;
-  font-family: "poppins";
+  font-size: 50px;
+  font-family: poppins;
+  font-weight: 500;
 }
 
-.content p{
-  margin: 2em 0em;
-  font-size:15px;
-  color: white;
-}
-
-main button {
-  padding: 1em;
-  border: none;
-  border-radius: 30px;
-  color: purple;
-  background-color: white;
-  width: 40%;
-}
-
-footer {
-  float: right;
-  color: white;
-}
-
-footer .fab {
+.content p {
+  color: #FCE8E6;   
+  line-height: 30px;
   font-size: 20px;
-  border: 1px solid white;
-  padding: .5em;
-  border-radius: 50%;
-  margin-right: 5px;
+}
+
+form {
+  background-color: white;
+  border-radius: 10px;
+  width: 500px;
+  height: 410px;
+  padding: 20px;
+}
+
+.box {
+  margin-left: 5%;
+}
+
+.first {
+  color: white;
+  background-color: #5D549E;
+  border: none;
+  margin-bottom: 15px;
+  width: 540px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.second {
+  color: white;
+  background-color: #69C98F;
+  border: none;
+  width: 480px;
+  height: 50px;
+  border-radius: 10px;
+  margin-left: 12px;
+}
+
+.box h6 {
+  color: #D0CED9;
+}
+
+input {
+  width: 470px;
+  margin: 15px;
+  height: 45px;
+  border-radius: 5px;
+  padding-left: 10px;
+  border: 1px solid #F0EFEF;
+}
+
+h6 {
+  margin: 0;
+  align-content: center;
+  margin-left: 90px;
+  margin-top: 10px;
+}
+
+.pink {
+  color: #EE817C;
+  font-size: 9px;
+}
+
+.bold {
+  color: white;
+}
+
+.nobold {
+  color: #CEC8E6;
 }
